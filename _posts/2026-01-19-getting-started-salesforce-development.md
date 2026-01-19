@@ -1,113 +1,59 @@
 ---
 layout: post
-title: "Getting Started with Salesforce Development: A Comprehensive Guide"
+title: "CHANGE THIS: Winter '25 Salesforce Update - Conditional Field Formatting"
 date: 2026-01-19
-categories: [Salesforce, Development]
-tags: [salesforce, apex, development, cloud]
+categories: [Salesforce, Updates]
+tags: [salesforce, winter-25, updates]
 author: Ranjith
-description: "Learn the fundamentals of Salesforce development including Apex programming, configuration, and best practices."
+description: "CHANGE THIS: Description of your blog post"
+image: /assets/images/CHANGE_THIS_IMAGE.png
 ---
+
+# CHANGE THIS: Winter '25 Salesforce Update - Conditional Field Formatting
+
+![CHANGE_THIS_IMAGE](/assets/images/CHANGE_THIS_IMAGE.png)
 
 ## Introduction
 
-Salesforce is one of the world's leading Customer Relationship Management (CRM) platforms, and mastering Salesforce development is a valuable skill in today's tech industry. Whether you're a beginner just starting your Salesforce journey or an experienced developer looking to expand your knowledge, this guide will provide you with essential information to get started.
+CHANGE THIS: Write your introduction here. This is where you'll introduce the topic and grab the reader's attention.
 
-## What is Salesforce Development?
+## Section 1: CHANGE THIS
 
-Salesforce development involves customizing and extending the Salesforce platform to meet specific business requirements. This can include:
+CHANGE THIS: Add your main content here.
 
-- **Configuration**: Using declarative tools like Process Builder, Flow, and Lightning App Builder
-- **Customization**: Writing custom code using Apex, JavaScript, and other technologies
-- **Integration**: Connecting Salesforce with external systems via APIs
-- **Data Management**: Handling data migration, synchronization, and quality
+### Subsection 1.1
 
-## Core Technologies
+CHANGE THIS: Add details about your topic.
 
-### Apex Programming Language
-Apex is Salesforce's proprietary object-oriented programming language. It's similar to Java and is used to write business logic for the Salesforce platform.
-
-```apex
-public class HelloWorld {
-    public static void greetUser(String name) {
-        System.debug('Hello, ' + name + '!');
-    }
-}
+```
+CHANGE THIS: Add code snippets if needed
 ```
 
-### Salesforce Object Query Language (SOQL)
-SOQL is used to query records from the Salesforce database, similar to SQL.
+## Section 2: CHANGE THIS
 
-```apex
-List<Account> accounts = [SELECT Id, Name, Industry FROM Account WHERE Industry = 'Technology'];
-```
+CHANGE THIS: Continue your content.
 
-### Salesforce Object Search Language (SOSL)
-SOSL is used to perform text-based searches across multiple objects.
+- **Point 1**: CHANGE THIS
+- **Point 2**: CHANGE THIS
+- **Point 3**: CHANGE THIS
 
-### Lightning Component Framework
-Build responsive user interfaces using Lightning components with HTML, CSS, and JavaScript.
+## Section 3: CHANGE THIS
 
-## Getting Started: Step-by-Step
+CHANGE THIS: Add more content sections as needed.
 
-### 1. Set Up Your Development Environment
-- Create a Salesforce Developer Account (free at [developer.salesforce.com](https://developer.salesforce.com))
-- Install Visual Studio Code with Salesforce Extension Pack
-- Install Salesforce CLI for command-line operations
+| Column 1 | Column 2 |
+|----------|----------|
+| CHANGE THIS | CHANGE THIS |
+| CHANGE THIS | CHANGE THIS |
 
-### 2. Learn the Fundamentals
-- Understand Salesforce's data model and standard objects
-- Learn the basics of Apex programming
-- Explore declarative development tools
+## Key Takeaways
 
-### 3. Practice with Projects
-- Create a custom object and related records
-- Write Apex triggers to automate business processes
-- Build Lightning components for the UI
-
-### 4. Study Best Practices
-- Follow Salesforce's architectural best practices
-- Implement proper error handling and logging
-- Write unit tests to ensure code quality
-
-## Best Practices for Salesforce Development
-
-1. **Follow the DRY Principle**: Don't Repeat Yourself - write reusable code
-2. **Use Governor Limits**: Always be aware of Salesforce's governor limits (e.g., SOQL query limits)
-3. **Write Tests**: Aim for at least 75% code coverage
-4. **Version Control**: Use Git to manage your code
-5. **Code Reviews**: Have your code reviewed before deployment
-6. **Documentation**: Document your code and configurations
-
-## Common Challenges and Solutions
-
-| Challenge | Solution |
-|-----------|----------|
-| Governor Limits | Batch processing, query optimization |
-| Testing Difficulty | Use Test.startTest() and Test.stopTest() |
-| Deployment Issues | Use change sets or deployment tools |
-| Performance | Use indexes, optimize SOQL queries |
-
-## Resources for Learning
-
-- **Official Documentation**: [Salesforce Trailhead](https://trailhead.salesforce.com)
-- **Developer Community**: [Salesforce Stack Exchange](https://salesforce.stackexchange.com)
-- **Forums**: [Salesforce Developer Forums](https://developer.salesforce.com/forums)
-
-## Next Steps
-
-Now that you have a foundational understanding of Salesforce development, I recommend:
-
-1. Completing Salesforce Trailhead modules specific to your interests
-2. Setting up a developer org and experimenting with code
-3. Building a small project to apply what you've learned
-4. Connecting with the Salesforce community for support and learning
+CHANGE THIS: Summarize the key points.
 
 ## Conclusion
 
-Salesforce development is a rewarding field that combines business logic with technical expertise. By understanding the core concepts, practicing regularly, and staying updated with the latest features, you'll be well on your way to becoming a proficient Salesforce developer.
-
-Stay tuned for more articles on specific Salesforce development topics!
+CHANGE THIS: Write your conclusion and call-to-action here.
 
 ---
 
-**Have questions or want to discuss Salesforce development?** Feel free to reach out or leave a comment below!
+**Have questions or want to discuss?** Feel free to reach out!
