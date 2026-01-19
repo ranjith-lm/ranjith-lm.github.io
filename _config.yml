@@ -1,0 +1,25 @@
+# Site settings
+title: Ranjith's Tech Blog
+description: Articles on Salesforce Development, Cloud Technologies, and Software Engineering
+baseurl: ""
+url: "https://ranjith-lm.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Author information
+author:
+  name: Ranjith
+  email: your-email@example.com
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug/
